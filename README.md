@@ -29,37 +29,37 @@
   - HTML - @Produces(MediaType.TEXT_HTML)
 
 ## Classes and Methods
-  - javax.ws.rs.client.Client <br />
+  - **javax.ws.rs.client.Client** <br />
     Client is the main entry point to the fluent API used to build and execute client requests in order to consume responses returned.
 
-  - javax.ws.rs.client.ClientBuilder <br />
+  - **javax.ws.rs.client.ClientBuilder** <br />
     Main entry point to the client API used to bootstrap Client instances.
 
-  - ClientBuilder.newClient() <br />
+  - **ClientBuilder.newClient()** <br />
     Create a new Client instance using the default client builder implementation class provided by the JAX-RS implementation provider.
 
-  - WebTarget target(String uri) <br />
+  - **WebTarget target(String uri)** <br />
     Build a new web resource target.
 
-  - WebTarget path(String path) <br />
+  - **WebTarget path(String path)** <br />
     Create a new WebTarget instance by appending path to the URI of the current target instance.
 
-  - WebTarget resolveTemplate(String name, Object value) <br />
+  - **WebTarget resolveTemplate(String name, Object value)** <br />
     Create a new WebTarget instance by resolving a URI template with a given name in the URI of the current target instance using a supplied value.
 
-  - Invocation.Builder request(MediaType... acceptedResponseTypes) <br />
+  - **Invocation.Builder request(MediaType... acceptedResponseTypes)** <br />
     Start building a request to the targeted web resource and define the accepted response media types.
 
-  - <T> T get(Class<T> responseType) <br />
+  - **<T> T get(Class<T> responseType)** <br />
     Invoke HTTP GET method for the current request synchronously.
 
-  - <T> T post(Entity<?> entity, Class<T> responseType) <br />
+  - **<T> T post(Entity<?> entity, Class<T> responseType)** <br />
     Invoke HTTP POST method for the current request synchronously.
 
-  - <T> T put(Entity<?> entity, Class<T> responseType) <br />
+  - **<T> T put(Entity<?> entity, Class<T> responseType)** <br />
     Invoke HTTP PUT method for the current request synchronously.
 
-  - <T> T delete(Class<T> responseType) <br />
+  - **<T> T delete(Class<T> responseType)** <br />
     Invoke HTTP DELETE method for the current request synchronously.	
 
 ## Implementation
