@@ -15,7 +15,7 @@
   In this post we will create resources about GET, POST, PUT, DELETE.
 
 ## Project Structure
- 	![Project Structure]()
+![Project Structure](https://github.com/Amarnath510/RestFulConsumingDemo/blob/master/RestFulConsumingInJava.png)
 
 ## Project Setup
   - Eclipse -> File -> New -> Dynamic Web Project -> Finish.
